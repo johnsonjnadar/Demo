@@ -27,7 +27,7 @@
                     TextColor="#333942"
                     VerticalTextAlignment="Center" />
 
-                <Button  Text="Open Scanner" Clicked="OpenScanner"/>
+                <Button Margin="12,8,12,8"  Text="Open Scanner" Clicked="OpenScanner"/>
             </StackLayout>
 
         </Grid>

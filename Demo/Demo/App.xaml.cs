@@ -16,7 +16,7 @@ namespace Demo
         {
             InitializeComponent();
 
-            MainPage = new Views.FirstPage();
+            MainPage = new NavigationPage(new Views.FirstPage());
         }
 
         protected override void OnStart()
