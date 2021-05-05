@@ -20,7 +20,8 @@ namespace Demo.Droid
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            System.Threading.Thread.Sleep(80);
+            //System.Threading.Thread.Sleep(8000);
+            System.Threading.Thread.Sleep(1000);
             StartActivity(typeof(MainActivity));
 
         }

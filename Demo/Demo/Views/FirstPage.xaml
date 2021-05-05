@@ -19,11 +19,20 @@
                 VerticalOptions="Center">
 
                 <!--  Label to display header  -->
+
                 <Label
-                    Margin="0,32,0,8"
+                    Margin="0,10,5,100"
+                    FontSize="30"
+                    Style="{StaticResource TitleLabelStyle}"
+                    Text="Welcome to Our World"
+                    TextColor="#333942"
+                    VerticalTextAlignment="Center" />
+
+                <Label
+                    Margin="0,32,0,18"
                     FontSize="20"
                     Style="{StaticResource TitleLabelStyle}"
-                    Text="Please Click on Button"
+                    Text="Please Click on Scanner Button"
                     TextColor="#333942"
                     VerticalTextAlignment="Center" />
 
