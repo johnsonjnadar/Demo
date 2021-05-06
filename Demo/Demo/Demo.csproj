@@ -11,7 +11,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data\detail.json" />
     <None Remove="Data\errorAndEmpty.json" />
+    <None Remove="Data\navigation.json" />
     <None Remove="Images\NoItem.svg" />
     <None Remove="Resources\Fonts\Montserrat-Bold.ttf" />
     <None Remove="Resources\Fonts\Montserrat-Medium.ttf" />
@@ -21,7 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Data\detail.json" />
     <EmbeddedResource Include="Data\errorAndEmpty.json" />
+    <EmbeddedResource Include="Data\navigation.json" />
     <EmbeddedResource Include="Images\NoItem.svg" />
     <EmbeddedResource Include="Resources\Fonts\Montserrat-Bold.ttf" />
     <EmbeddedResource Include="Resources\Fonts\Montserrat-Medium.ttf" />
@@ -35,10 +39,14 @@
     <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
     <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
     <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="19.1.0.56" />
+    <PackageReference Include="Syncfusion.Xamarin.Cards" Version="19.1.0.56" />
     <PackageReference Include="Syncfusion.Xamarin.Core" Version="19.1.0.56" />
+    <PackageReference Include="Syncfusion.Xamarin.DataSource" Version="19.1.0.56" />
+    <PackageReference Include="Syncfusion.Xamarin.SfBadgeView" Version="19.1.0.56" />
     <PackageReference Include="Syncfusion.Xamarin.SfComboBox" Version="19.1.0.56" />
     <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="19.1.0.56" />
     <PackageReference Include="Syncfusion.Xamarin.SfRating" Version="19.1.0.56" />
+    <PackageReference Include="Syncfusion.Xamarin.SfRotator" Version="19.1.0.56" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
     <PackageReference Include="ZXing.Net.Mobile" Version="3.1.0-beta2" />
@@ -106,7 +114,31 @@
     <EmbeddedResource Update="Themes\LightTheme.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\AlbumPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\BottomNavigationPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\DetailPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\FeedbackView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\FirstPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PhotosPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\SettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Templates\BottomNavigationAlbumTemplate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Templates\ReviewTemplate.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>

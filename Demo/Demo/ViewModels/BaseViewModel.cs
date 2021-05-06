@@ -16,6 +16,8 @@ namespace Demo.ViewModels
     {
         #region Fields
 
+       // public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
+
         private Command<object> backButtonCommand;
 
         #endregion

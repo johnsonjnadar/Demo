@@ -1,3 +1,7 @@
+using Syncfusion.XForms.iOS.EffectsView;
+using Syncfusion.XForms.iOS.Cards;
+using Syncfusion.SfRotator.XForms.iOS;
+using Syncfusion.XForms.iOS.BadgeView;
 using Syncfusion.SfRating.XForms.iOS;
 using Syncfusion.XForms.iOS.ComboBox;
 using Syncfusion.XForms.iOS.TextInputLayout;
@@ -31,6 +35,10 @@ namespace Demo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            SfEffectsViewRenderer.Init();
+            SfCardViewRenderer.Init();
+            SfRotatorRenderer.Init();
+            SfBadgeViewRenderer.Init();
             SfRatingRenderer.Init();
             SfListViewRenderer.Init();
             SfComboBoxRenderer.Init();
