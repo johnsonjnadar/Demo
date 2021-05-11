@@ -17,6 +17,7 @@ namespace Demo.Views
         /// </summary>
         public DetailPage()
         {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDMwOTUwQDMxMzkyZTMxMmUzMElMMzI0Q0lGdERCOWVzOFlEcWd2aThVSUZWak1lZmpJSXVWeTRCSGt3Ykk9");
             this.InitializeComponent();
             this.BindingContext = DetailPageViewModel.BindingContext;
         }

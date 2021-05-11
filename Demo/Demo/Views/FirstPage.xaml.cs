@@ -55,22 +55,16 @@ namespace Demo.Views
                 Device.BeginInvokeOnMainThread(() => {
                     object scannedip = result.Text;
 
-
                 //this is not working if we give validation
                    /* if ((bool)(scannedip = null))
                     {
-
                         DisplayAlert("Alert", "Please scan correct Code", "OK");
-
                     }
                     else
                     {
-
                         Preferences.Set("Ipaddres", result.Text);
-
                         var myValue = Preferences.Get("Ipaddres", "default");
                         _ = DisplayAlert("You Paired", myValue, "OK");
-
                     }*/
 
                     // this is working with out validation
@@ -82,8 +76,9 @@ namespace Demo.Views
                     var myValue = Preferences.Get("Ipaddres", "default");
 
                     //displays alert msg
-                    _ = DisplayAlert("You Paired", myValue, "OK");
+                   // _ = DisplayAlert("You Paired", myValue, "OK");
 
+                    Navigation.PushAsync(new DetailPage());
 
                     //DisplayAlert("You Paired", result.Text, "OK");
                     //Shell.Current.GoToAsync(nameof(BottomNavigationPage));

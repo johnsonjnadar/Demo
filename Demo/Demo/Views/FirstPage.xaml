@@ -3,9 +3,6 @@
     x:Class="Demo.Views.FirstPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:button="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
-    xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
-    xmlns:svg="clr-namespace:Demo.Controls"
     BackgroundColor="{StaticResource Gray-White}"
     NavigationPage.HasNavigationBar="False">
 
@@ -19,7 +16,6 @@
                 VerticalOptions="Center">
 
                 <!--  Label to display header  -->
-
                 <Label
                     Margin="0,10,5,100"
                     FontSize="30"
